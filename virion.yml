@@ -1,5 +1,5 @@
-name: Promise
-antigen: skymin\promise
+name: AsyncQueue
+antigen: skymin\asyncqueue
 api: 4.0.0
 version: 1.0.0
 author: skymin
