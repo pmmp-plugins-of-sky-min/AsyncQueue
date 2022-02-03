@@ -1,7 +1,7 @@
 <?php
 declare(strict_types = 1);
 
-namespace skymin\promise;
+namespace skymin\asyncqueue;
 
 use pocketmine\Server;
 use pocketmine\scheduler\AsyncTask;
@@ -9,7 +9,7 @@ use pocketmine\scheduler\AsyncTask;
 use Closure;
 use function spl_object_id;
 
-final class Promise{
+final class AsyncQueue{
 	
 	/** @var AsyncTask[] */
 	private static array $queue = [];
