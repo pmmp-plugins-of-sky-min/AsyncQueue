@@ -21,8 +21,8 @@ final class AsyncQueue{
 		if(isset(self::$queue[$id])){
 			unset(self::$queue[$id]);
 		}
-		if($callback !== null) {
-			self::$queue[$id] = $callback;
+		if($callBack !== null) {
+			self::$queue[$id] = $callBack;
 		}
 	}
 	
