@@ -36,7 +36,7 @@ final class AsyncQueue{
 	public static function wait(AsyncTask $task) : void{
 		if($task->isFinished()) return;
 		while(!$task->isFinished()){
-			//NOTHING
+			unsleep(1000);
 		}
 	}
 	
